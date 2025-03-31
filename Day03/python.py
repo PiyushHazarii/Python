@@ -4,7 +4,7 @@ if x>3:
     print("Yes It is greater than 3")
 else:
     print("No It is not greater than 3")
-    
+# there is no else if in python we have to use elif...
 #Iterative Statements
 
 #ye har baar ek character lega and print karwa dega.
