@@ -5,7 +5,7 @@ print(x);
 
 print("Hello World");
 
-#this will five the type of variable.
+#this will find the type of variable.
 print(type(x));
 # python mein single quote mein bhi chalega 10 quote mein bhi chalega aur 100 quote mein 
 # bhi chalega 
