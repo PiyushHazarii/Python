@@ -1,4 +1,6 @@
-x = 5;
+# IF & ELSE & ITERATIVE STATEMENTS
+
+x= 5;
 #this is the to write if else in python...
 if x>3:
     print("Yes It is greater than 3")
@@ -28,3 +30,21 @@ for i in range(2,5):
 #isme ye start hoga 2 se jayega 10 se 1 kam tak and 3 plus hote rahega 
 for i in range(2,10,3):
     print(i);
+    
+    
+
+#this is while-else loop    
+p = 1234
+c = 0
+
+while c != 3:
+    c = c + 1
+    pin = input("Enter a pin: ")
+    if pin == str(p):  # Convert p to string for comparison
+        print("Transaction Successful")
+        break
+    else:
+        print("Incorrect Pin")
+
+else:  # This 'else' block is associated with the 'while' loop
+    print("Card Blocked")

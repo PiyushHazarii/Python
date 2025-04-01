@@ -1,3 +1,5 @@
+#BASICS OF PYTHON
+
 #this input function is used to get the input from the user
 x = input();
 print("The input is :-"+x)
