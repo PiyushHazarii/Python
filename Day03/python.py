@@ -39,7 +39,7 @@ c = 0
 
 while c != 3:
     c = c + 1
-    pin = input("Enter a pin: ")
+    pin = int(input("Enter a pin: "))
     if pin == str(p):  # Convert p to string for comparison
         print("Transaction Successful")
         break

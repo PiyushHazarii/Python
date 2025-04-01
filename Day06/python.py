@@ -40,3 +40,7 @@ print(t1)
 
 k1 = set()
 print(type(k1))
+
+# this is dictionary 
+d1 = dict(one="Amit", two="Ajay", three="atul", four="ashish")
+print(d1)
