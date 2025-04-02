@@ -71,3 +71,8 @@ print(l2, type(l1))
 # for example: 1-2 3-4 5-6
 l3 = dict(input(i).split("-") for i in range(3))
 print(l3, type(l3)) 
+
+#har bar ek baar key and ek baar value chalega
+#pehele key wala input lega then value wala input lega.
+d2 = {input("Enter a key: "): input("Enter a value: ") for x in range(3)}
+print(d2)
