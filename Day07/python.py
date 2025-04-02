@@ -25,3 +25,11 @@ def fun1(x, y, z=0):
   print(z)
 
 fun1(z=11, x=22, y=33)
+
+
+#this will take the input as a tuple 
+def fun10(*p):
+  print(p, type(p))
+
+fun10(22, 33, 44, 55, 66, 777, 88, 99)
+# fun1(11, 22, w=33, z=44)
