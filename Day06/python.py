@@ -72,3 +72,16 @@ s = set()
 s.add(18)
 s.add("18")
 print(s)
+
+#in keyword list mein bhi chalta hai 
+# uska kaam ye hai wo jo in ke baad likha gaya hai wo in se pehele wale 
+# variable mein present hai ki nhi wo check krte hai aur true aur false mein
+# return krta hai value..
+l = ["Harry", "Rohan", "Shubham", "Divya"]
+
+name = input("Enter your name: ")
+
+if name in l:
+    print("Your name is in the list")
+else:
+    print("Your name is not in the list")

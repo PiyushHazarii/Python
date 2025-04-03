@@ -23,7 +23,13 @@ for i in range(1, 5):
         else:
             print(" ", end="")
     print()
-    
+
+#for loop mein agar humko kuch nhi pass krna hai matlab
+# ki wo khali rahega just range likhenge to uske liye hum 
+# pass keyword ka use krte hai 
+for i in range(645):
+    pass
+#pass is a null statement in python     
     
 #eval ek aisa jo data ko dekh kar uska type bata deta hai...
 # x = eval(input("Enter a data:"))
@@ -76,3 +82,16 @@ print(l3, type(l3))
 #pehele key wala input lega then value wala input lega.
 d2 = {input("Enter a key: "): input("Enter a value: ") for x in range(3)}
 print(d2)
+
+
+#pattern printing in python 
+n = int(input("Enter the number: "))
+
+for i in range(1, n + 1):
+    if i == 1 or i == n:
+        print("*" * n, end="")
+    else:
+        print("*", end="")
+        print(" " * (n - 2), end="")
+        print("*", end="")
+    print()
