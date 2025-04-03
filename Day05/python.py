@@ -1,4 +1,5 @@
 #List & Tuple
+#list is mutable but tuple is not mutable 
 x = 5
 print(x/2) #this will print 2.5
 print(x//2) #this will print 2
@@ -31,3 +32,8 @@ print(t2)
 
 t2.sort()
 print(t2)
+
+# ye kitna 0 hai wo count krke de dega 
+a = (7, 0, 8, 0, 0, 9)
+n = a.count(0)
+print(n)

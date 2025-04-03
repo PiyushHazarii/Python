@@ -44,3 +44,31 @@ print(type(k1))
 # this is dictionary 
 d1 = dict(one="Amit", two="Ajay", three="atul", four="ashish")
 print(d1)
+
+#ye items de dega sara dictionary ka 
+marks = {
+    "Harry": 100,
+    "Shubham": 56,
+    "Rohan": 23,
+    0: "Harry"
+}
+
+print(marks.items())
+print(marks.keys)
+print(marks.values)
+
+marks.update({"Harry":32})
+print(marks.get("Rohan"))
+
+print(marks.get("Rohanwe")) # ye none print karega koi bhhi error nhi dega 
+print(marks["husdfjsd"]) # ye error dega none wagera kuch bhi print nhi karega
+
+
+#Empty set aise banta hai 
+e = set()  # Don't use s = {} as it will create an empty dictionary
+
+#dono rahega set mein kyuki ek string hai aur ek integer.
+s = set()
+s.add(18)
+s.add("18")
+print(s)

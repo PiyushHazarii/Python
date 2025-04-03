@@ -25,3 +25,25 @@ n=5
 v=5
 print(n==v); #ye values ko compare karega
 print(n is y) #ye address ko compare karega ki same hai ki nahi 
+
+#String functions in python 
+
+name = "piyush"
+
+print(len(name))
+print(name.endswith("sh"))
+print(name.startswith("pi"))
+print(name.capitalize()) # ye sirf pehla letter ko capital karega
+
+#this is a new way to print variable in double string 
+name = input("Enter Your Name :")
+print(f"Good Morning {name}")
+
+#you have to replave name and date in this string 
+letter = '''Dear <|Name|>,
+You are selected!
+<|Date|>'''
+
+# ye pehele string ko piyush se replace kr dega then
+# uss string ko date se replace karega then print karega 
+print(letter.replace("<|Name|>", "Piyush").replace("<|Date|>", "24 September 2050"))
