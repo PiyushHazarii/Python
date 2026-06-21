@@ -1,7 +1,7 @@
 import os
 
 # Specify the directory path
-directory_path = '/'
+directory_path = '/'    # this is the directory path you want to give
 
 # Get the list of all files and directories in the specified directory
 entries = os.listdir(directory_path)
