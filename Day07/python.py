@@ -24,7 +24,10 @@ def fun1(x, y, z=0):
   print(x + y + z)
   print(z)
 
-fun1(z=11, x=22, y=33)
+# yaha pr hum z ka value pass kr bhi skte hai aur nhi bhi kar skte hai
+# koi error show nhi karega value pass nhi bhi karne se.
+fun1(x=22, y=33)
+fun1(x=1, y=2, z=3)
 
 
 #this will take the input as a tuple 
