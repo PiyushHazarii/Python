@@ -30,14 +30,19 @@ print(n is y) #ye address ko compare karega ki same hai ki nahi
 
 name = "piyush"
 
+# this is the use of slicing in python
+bb = name[2:5];
+print(bb) #ye 2 se 5 tak ka string print karega but 5 ko include nahi karega
+
+
 print(len(name))
-print(name.endswith("sh"))
+print(name.endswith("sh"))  # ye true or false return krta hai 
 print(name.startswith("pi"))
 print(name.capitalize()) # ye sirf pehla letter ko capital karega
 
 #this is a new way to print variable in double string 
 name = input("Enter Your Name :")
-print(f"Good Morning {name}")
+print(f"Good Morning {name}")   # Normal way is same as previous one but this is a new way to do this
 
 #you have to replave name and date in this string 
 letter = '''Dear <|Name|>,
