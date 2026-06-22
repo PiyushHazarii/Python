@@ -6,6 +6,8 @@ def fun():
   print("A")
 
 # pehele ye print hoga then function call hoga 
+# python mein function ko call karne se pehele usko define karna zaruri hai
+# fuction isme direct call hota hai without any keyword like in c++ and java
 print("Hello")
 fun()
 
