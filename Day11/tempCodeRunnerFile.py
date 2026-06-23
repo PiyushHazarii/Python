@@ -1,1 +1,1 @@
-a.show("piyush")
+randint

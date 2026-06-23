@@ -25,3 +25,7 @@ me.func()
 #Employee.func(me) # ye bhi chalega
 # Employee.func() # ye nahi chalega kyunki isme self nahi hai
 me.greet()
+
+# self means object ka reference hai
+# jaise ki agar hum me.func() call karte hain to self mein me ka reference pass hoga
+#  jaise ki agar hum Employee.func(me) call karte hain to self mein me ka reference pass hoga

@@ -12,7 +12,7 @@ class Two():
 
 class Three(One,Two):
     def multipleInheritance(self):
-        print(f"This is multiole inheritance")
+        print(f"This is multiple inheritance")
         
 b = Three()
 

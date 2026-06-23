@@ -15,7 +15,7 @@ class Employee:
     salary = 1200000
 
 harry = Employee()
-harry.name = "Harry" # this is an object attribute
+harry.name = "Harry" # this is an object attribute means it is related to the object harry and not to the class Employee
 print(harry.name, harry.language, harry.salary)
 
 rohan = Employee()
