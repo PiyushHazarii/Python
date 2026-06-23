@@ -7,6 +7,7 @@ class Programmer(Employee):
     b = 2
 
 class Manager(Programmer):
+    super().__init__() #if i want that the constructor of the parent class should be called then we can use super().__init__() method
     def __init__(self):
         print("dunder or constructor method called in Manager class")
     c = 3
