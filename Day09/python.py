@@ -59,4 +59,5 @@ except (ZeroDivisionError, TypeError):
     print("Error")
 else:
     print("else block") #agar koi exception nahi aata hai to else block chalega
+    # matlab agar try block ache se execute ho jata hai to else block chalega nhi to nhi chalega
     
