@@ -4,7 +4,8 @@ myList = [1, 2, 9, 5, 3, 5]
 # for item in myList:
 #     squaredList.append(item*item)
 
-#this is the new way of writing the above code 
+#this is the new way of writing the above code
+# THIS IS CALLED LIST COMPREHENSION 
 squaredList = [i*i for i in myList]
 
 print(squaredList)
@@ -22,6 +23,8 @@ l = [3, 513, 53, 535]
 #NEW WAY
 # This can be simplified using enumerate function
 #List comprehension.
+# enumerate() is a built-in Python function that allows 
+# you to get both the index and the value of an iterable (like a list, tuple, string, etc.) while looping through it.
 for index, item in enumerate(l):
     print(f"The item number at index {index} is {item}")
     
